@@ -1,0 +1,10 @@
+how to  setup  and push to heroku
+
+- git init 
+- heroku login 
+- heroku create 
+- echo "web: node server.js" > Procfile
+- git add .
+- git commit -m "changes"
+- git push heroku main
+
